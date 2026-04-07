@@ -1,0 +1,6 @@
+numpy==2.3.2
+pandas==2.3.2
+python-dotenv==1.1.1
+scipy==1.16.1
+rampy==0.6.4
+tqdm==4.67.3
