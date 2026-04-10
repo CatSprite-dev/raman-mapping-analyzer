@@ -2,7 +2,7 @@
 
 ## Description
 
-A CLI tool for automated mineral identification from Raman mapping data. For each point in the map, the script removes the baseline, normalizes and smooths the spectrum, then compares it against a library of reference mineral spectra using Pearson correlation. The result is a summary of how many points match each mineral.
+A CLI tool for automated mineral identification from Raman mapping data. For each point in the map, the script removes the baseline and normalizes the spectrum, then compares it against a library of reference mineral spectra using Pearson correlation. The result is a summary of how many points match each mineral.
 
 I’m specifically referring to minerals because I use the script to analyze heavy-fraction minerals, but in reality, it can be used to analyze the mapping of any materials. All that’s required is the map itself and the corresponding library of reference spectra.
 
