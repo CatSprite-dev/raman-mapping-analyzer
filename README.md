@@ -39,7 +39,7 @@ python3 main.py
 
 ### Input
 
-- **Map file** — a CSV or TSV file with columns `#X`, `Y`, `#Y` (wavenumber), `I` (intensity)
+- **Map file** — a CSV or TSV file with columns `#X`, `#Y`, `#Wave` (wavenumber), `#Intensity`
 - **Library folder** — a directory containing reference spectrum files against which comparisons will be made, with one file per mineral. The name of each file must begin with the name of the mineral to which the spectrum in that file corresponds, for example, Quartz__R050125-3__Raman__514__.txt.
 
 ### Output
